@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 30px;
 }
 
 .banner {
@@ -46,6 +46,7 @@ body {
     z-index: 0;
     position: fixed;
     width: 100%;
+    padding-top: 200px;
     filter: opacity(50%);
 }
   
@@ -62,8 +63,9 @@ body {
 
 .center-text {
     text-align: left; 
-    padding-left: 20em; 
-    padding-right: 20em;
+    padding-left: 25em; 
+    padding-right: 25em;
+    font-size: 1.1em;
 }
 
 .icons{
@@ -80,26 +82,12 @@ body {
     padding-top: 20px;
     z-index: 1;
     width: 100%;
-    background-color: #e6e1d3;
+    background-color: #ddd9d0;
 }
 
 .tomb h2 {
 
-    padding-top: 20px;
-    text-align: center;
-    font-size: 2em;
-    color: #d9603b;
-}
-
-.test-tomb {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    background-color: #e6e1d3;
-}
-
-.test-tomb h2{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
     font-size: 2em;
     color: #d9603b;
@@ -111,7 +99,7 @@ body {
 .columnB {
     position: relative;
     z-index: 1;
-    width: 48%;
+    width: 44%;
     text-align: left;
     box-sizing: border-box;
     color: black;
@@ -187,7 +175,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10px 10%;
+    padding: 30px 5%;
+    padding-left: 100px;
     flex-wrap: wrap;
 }
 
@@ -201,13 +190,15 @@ body {
 .box {
 
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 35px;
     margin: 0;
 }
 
 .box p {
     margin: 0;
+    padding: 30px, 30px, 30px;
     text-align: left;
+    font-size: 1.1em;
 }
 
 /* Footer container */
@@ -357,13 +348,12 @@ body {
 .menu {
     position: relative;
     z-index: 5;
-    padding-top: 150px;
 }
 
 .topbar {
     position: relative;
     left: 200px;
-    top: 30px;
+    top: 10px;
     width: calc(100% - 200px);
     height: 120px;
     background-color: #d9603b;
@@ -378,6 +368,13 @@ body {
     );
 }
 
+.topbar h2 {
+
+    padding-top: 72px;
+    padding-left: 470px;
+    color: #ddd;
+}
+
 .sidebar{
     
     position: relative;
@@ -386,7 +383,7 @@ body {
     right: 0;
     top: 30px;
     width: 200px;
-    height: 100vh;
+    height: 265vh;
     background-color: #d9603b;
 
     clip-path: polygon(
@@ -405,16 +402,16 @@ body {
     color: white;
     text-align: center;
     font-size: 2em;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
-.test-sidebar-nav-int{
+.sidebar-nav-int{
     position: relative;
     background-color: #dc6f4e;
     display: flex;
 }
 
-.test-sidebar-nav-int a{
+.sidebar-nav-int a{
     display: block;
     padding: 15px;
     color: white;
@@ -422,14 +419,14 @@ body {
     flex-direction: column;
 }
 
-.test-sidebar-nav-int a:hover{
+.sidebar-nav-int a:hover{
     color: #b85c3d;
     background-color: white;
     
     border-radius: 4px;
 }
 
-.test-topnav{
+.topnav{
     padding: 1rem !important;
     box-sizing: border-box;
 }
