@@ -295,6 +295,7 @@ hr {
     background-color: #d9603b;
     color: white;
     text-align: center;
+    bottom: 0;
 }
 
 /* Media Queries */
